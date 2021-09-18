@@ -1,0 +1,20 @@
+#include <Keyboard.h>
+
+void setup() {
+
+Keyboard.begin();
+delay(500);
+
+Keyboard.press(KEY_LEFT_GUI);
+Keyboard.press('l');
+Keyboard.releaseAll();
+delay(500);
+
+Keyboard.end();
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+}
